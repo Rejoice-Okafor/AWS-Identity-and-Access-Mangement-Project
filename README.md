@@ -1,8 +1,10 @@
-# AWS-Projects-With-CyberSafe
+#AWS-Projects-With-CyberSafe
 
-This repository contains many hands on projects on AWS services and resources.
+##This repository contains many hands on projects on AWS services and resources.
 
 ![image](https://user-images.githubusercontent.com/112861600/191002250-a7a8d772-edc1-4209-9f66-db7aeeed9b65.png)
+#AWS BUDGETS
+
 AWS Budgets is a service use to monitor your AWS costs and usage and take appropriate action.
 Reserved Instances (RIs) or Savings Plans aggregate utilization and coverage metrics can be tracked using AWS Budgets. It can be used to establish your monthly cost budget with a fixed target amount to keep track of all costs associated with your account. 
 
@@ -19,4 +21,4 @@ For Instance, you can create an AWS budgets by defining a coverage threshold and
 
 4.Choose Cost budget as the budget type. Then select Next.
 
-5.Choose how often you want the budget to reset the actual and forecasted spend under Set budget amount, Period. You can choose Daily for each day, Montly for each month or  Quarterly for every three months, or Annually for each year.
+5.Choose how often you want the budget to reset the actual and forecasted spend under Set budget amount, Period. You can choose Daily for each day, Montly for each month or  Quarterly for every three months, or Annually for each year.<sub>
