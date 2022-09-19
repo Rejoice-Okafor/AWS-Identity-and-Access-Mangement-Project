@@ -35,3 +35,8 @@ For Instance, you can create an AWS budgets by defining a coverage threshold and
 
 11.Review your budgets for any errors and then click create. You just created your first AWS Budget. Below is an image of a newly created AWS Budget.
 ![Awsbudgets](https://user-images.githubusercontent.com/112861600/191037833-0f537444-9886-46e5-b2ac-15231427a9ef.png)
+
+
+# Creating Users, Groups and Roles Using Identity and Access Managemnt
+
+## Creating Users
