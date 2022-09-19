@@ -10,4 +10,4 @@ For Instance, you can create an AWS budgets by defining a coverage threshold and
 2.Then choose Budgets from the navigation pane.
 3.Select Create budget at the top of the page.
 4.Choose Cost budget as the budget type. Then select Next.
-5.Choose how often you want the budget to reset the actual and forecasted spend under Set budget amount, Period. You can choose Daily for each day, Montly for each month or  Quarterly for every three months, or Annually for each year
+5.Choose how often you want the budget to reset the actual and forecasted spend under Set budget amount, Period. You can choose Daily for each day, Montly for each month or  Quarterly for every three months, or Annually for each year.
