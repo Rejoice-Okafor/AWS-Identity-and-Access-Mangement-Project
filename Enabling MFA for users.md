@@ -7,3 +7,5 @@ Multi Factor Authentication(MFA) is an authentication method that requires the u
 2. What they have eg Tokens and badges.
 
 3. As well as what they are eg; fingerprints and face ID
+
+## Enabling MFA on AWS using the Identity and Access Management centre
