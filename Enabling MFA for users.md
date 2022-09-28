@@ -10,4 +10,10 @@ Multi Factor Authentication(MFA) is an authentication method that requires the u
 
 ## Enabling MFA on AWS using the Identity and Access Management centre
 
-To do this, you would need a virtual MFA App that can generate OTP(mostly 6-digits). These Virtual authenticator apps support multiple tokens on a single device and use the time-based one-time password (TOTP) algorithm. Some of AWS supported apps includes: Twilio Authy Authenticator, Duo Mobile,
+To do this, you would need a virtual MFA App that can generate OTP(mostly 6-digits). These Virtual authenticator apps support multiple tokens on a single device and use the time-based one-time password (TOTP) algorithm. Some of AWS supported apps includes: Twilio Authy Authenticator, Duo Mobile,Microsoft Authenticator, Google Authenticatoretc.
+
+### Steps for enabling MFA on an IAM User.
+
+1. Firstly login to the AWS management console and navigate to the IAM center  https://console.aws.amazon.com/iam/
+
+
