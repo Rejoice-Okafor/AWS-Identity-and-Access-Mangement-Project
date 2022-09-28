@@ -29,7 +29,7 @@ IAM generates and displays virtual MFA device configuration information, includi
 
 ![Screenshot (210)](https://user-images.githubusercontent.com/112861600/192899348-dbcf7524-f12e-4a44-af5a-58579b599250.png)
 
-5. On your screen,Select Show QR code and then scan the QR code with the Virtual MFA device. You could select the camera icon or an option similar to Scan code, and then scan the code with the device's camera. After scanning is complete, it generates two codes(OTP) for you withing a 30 seconds interval which you yould be required to input into the two boxes.
+5. On your screen, select Show QR code and then scan the QR code with the Virtual MFA device. You could select the camera icon or an option similar to Scan code, and then scan the code with the device's camera. After scanning is complete, it generates two codes(OTP) for you withing a 30 seconds interval which you yould be required to input into the two boxes.
 
 6. After inputing the two OTPs, click on Assign MFA and wait for few seconds for your request to be complete. You would the get a prompt telling you that the MFA has been enabled.
 
