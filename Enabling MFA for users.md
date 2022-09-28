@@ -15,5 +15,7 @@ To do this, you would need a virtual MFA App that can generate OTP(mostly 6-digi
 ### Steps for enabling MFA on an IAM User.
 
 1. Firstly login to the AWS management console and navigate to the IAM center  https://console.aws.amazon.com/iam/
+![console2](https://user-images.githubusercontent.com/112861600/192896836-62351c6f-4077-4837-83eb-365690f72af0.png)
+
 
 
