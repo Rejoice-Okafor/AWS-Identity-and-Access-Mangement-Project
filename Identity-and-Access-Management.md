@@ -42,16 +42,22 @@ Features of IAM
 ![Screenshot (214)](https://user-images.githubusercontent.com/112861600/193025593-363bdff2-672e-462d-89aa-3b68344445b2.png)
 *To see more about IAM Policies, check out this link- https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html#access_policies_create-start
 
-* Click next and add tags( optional) which are metadata or key value pairs that tells you more about the user.
-![Screenshot (214)](https://user-images.githubusercontent.com/112861600/193027587-74f628fb-4c06-4213-abb7-47ad627c7bf8.png)
+7. Click next and add tags( optional) which are metadata or key value pairs that tells you more about the user.
+![Screenshot (215)](https://user-images.githubusercontent.com/112861600/193030263-555f94f3-aec0-4587-8db5-dfdccb98056d.png)
 
-* Click Next and Review your proccesses, if there are not any errors then click on Create User
+
+8. Choose Next and Review your proccesses, if there are not any errors then click on Create User
 ![Screenshot (216)](https://user-images.githubusercontent.com/112861600/193027728-a445dd1a-553b-4e67-8a05-27fb335e3606.png)
 
-* Select Show next to each password and access key you want to see to view the users' access keys (access key IDs and secret access keys). Click Download.csv to save the access keys, and then save the file in a secure location.
+
+9. Select Show next to each password and access key you want to see to view the users' access keys (access key IDs and secret access keys). Click Download.csv to save the access keys, and then save the file in a secure location.
 ![Screenshot (217)](https://user-images.githubusercontent.com/112861600/193028037-4d26fd6b-e071-4a98-9387-7d84a9d2ac03.png)
 
 **Note**: *You must give your users this information before they can  use the AWS API and this is the only way for you to see or download the secret access keys. The secret access key and new access key ID for the user should be kept in a safe location because after completing this step, you won't have access to the hidden keys once more*
+
+
+
+
 
 
 
