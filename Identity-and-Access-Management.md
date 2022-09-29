@@ -17,7 +17,7 @@ Features of IAM
 ## Creating Users on IAM
 
 1. Firstly, sign in to the IAM console at  https://console.aws.amazon.com/iam/
-2. 
+ 
 ![Screenshot (212)](https://user-images.githubusercontent.com/112861600/193019042-74987ee9-f035-4ad9-bbd2-7643b745038b.png)
 
 2. Under the Access Mangement pane by the left, click on users and then add users
@@ -51,7 +51,7 @@ Features of IAM
 * Select Show next to each password and access key you want to see to view the users' access keys (access key IDs and secret access keys). Click Download.csv to save the access keys, and then save the file in a secure location.
 ![Screenshot (217)](https://user-images.githubusercontent.com/112861600/193028037-4d26fd6b-e071-4a98-9387-7d84a9d2ac03.png)
 
- *You must give your users this information before they can  use the AWS API and this is the only way for you to see or download the secret access keys. The secret access key and new access key ID for the user should be kept in a safe location because after completing this step, you won't have access to the hidden keys once more*
+**Note**: *You must give your users this information before they can  use the AWS API and this is the only way for you to see or download the secret access keys. The secret access key and new access key ID for the user should be kept in a safe location because after completing this step, you won't have access to the hidden keys once more*
 
 
 
