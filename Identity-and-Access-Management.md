@@ -76,6 +76,9 @@ An IAM Role is an identity in IAM that you create in your account which is assig
 
 7. Scroll down to permission boundary( this is advanced and optional as it is used to to control the maximum role permissions). If you wish to set a permission boundary, click on "use a permission boundary", choose from the permisions or create yours and then click next. 
 
+8. On the next page, give it a rolename and description, review and then click create role.
+
+![Screenshot (232)](https://user-images.githubusercontent.com/112861600/194082701-92ab10de-8202-4de8-8137-d811c52ebf81.png)
 
 
 
