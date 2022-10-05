@@ -16,7 +16,7 @@ Features of IAM
 
 ## Creating Users on IAM
 
-1. Firstly, sign in to the IAM console at  https://console.aws.amazon.com/iam/
+1. Firstly, sign in to the IAM console at  https://console.aws.amazon.com/iam/. On the search bar, type IAM and wait for it to open.
  
 ![Screenshot (212)](https://user-images.githubusercontent.com/112861600/193019042-74987ee9-f035-4ad9-bbd2-7643b745038b.png)
 
@@ -56,7 +56,25 @@ Features of IAM
 **Note**: *You must give your users this information before they can  use the AWS API and this is the only way for you to see or download the secret access keys. The secret access key and new access key ID for the user should be kept in a safe location because after completing this step, you won't have access to the hidden keys once more*
 
 
+# Creating Roles on IAM
 
+An IAM Role is an identity in IAM that you create in your account which is assigned permissions or accesss for a period of time. It can be a service or a user and it is quite temporary ranging from 1-4 hours. This roles helps to enforce the principle of least priviledge as a user or service only have access to the resources and permissions they need when they assumed this role. To create a Role on IAM, follow these simple steps:
+
+1. Sign into the AWS Console https://console.aws.amazon.com/iam/
+
+2. On the IAM console, click on roles and then choose "create roles"
+
+3. ![Screenshot (228)](https://user-images.githubusercontent.com/112861600/194078993-240453e9-0867-43d6-93f0-5f97245d5949.png)
+
+4. Under the 'select trusted identity", click on AWS service and then choose the use case for the service. In this case, i selected EC2 and clicked next.
+
+![Screenshot (227)](https://user-images.githubusercontent.com/112861600/194079632-364d9852-e8fd-41d8-a848-d04fb243cb96.png)
+
+5. In this page, you either choose from an existing permission policies or create your own policy. I gave the EC2 service full access to s3 buckets here.
+
+6. ![Screenshot (230)](https://user-images.githubusercontent.com/112861600/194080791-6a807697-54d7-4b73-8037-3e9caa29374e.png)
+
+7. Scroll down to permission boundary( this is advanced and optional as it is used to to control the maximum role permissions). If you wish to set a permission boundary, click on "use a permission boundary", choose from the permisions or create yours and then click next. 
 
 
 
