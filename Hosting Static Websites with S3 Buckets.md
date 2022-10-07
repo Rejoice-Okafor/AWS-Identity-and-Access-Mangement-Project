@@ -42,7 +42,8 @@ To store  data in S3, you create a bucket first and choose a bucket name and AWS
 
 ## Uploading the demo codes to the bucket
 
-1. Click on the newly created bucket and navigate to Upload
+1. Click on the newly created bucket and navigate to Upload. For demo codes, click here [Dynamic2-20220912T090913Z-001.zip](https://github.com/Rejoice-Okafor/AWS-Projects-with-Cybersafe/files/9735203/Dynamic2-20220912T090913Z-001.zip) 
+ 
   
   ![Screenshot (237)](https://user-images.githubusercontent.com/112861600/194573392-f8a1b19c-3457-4c14-87ff-53802d3a3f4d.png)
 
