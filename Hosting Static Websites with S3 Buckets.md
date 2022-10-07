@@ -20,12 +20,25 @@ To store  data in S3, you create a bucket first and choose a bucket name and AWS
 3. In bucket name, enter a unique name for your bucket which should be DNS-compliant( Your bucket name cannot be changed after bucket is created
 
 4. In Region, choose the AWS Region closest to you for low latency.
+5. 
+![Screenshot (235)](https://user-images.githubusercontent.com/112861600/194571676-b75d8253-08c4-44c0-a5ea-e21c32bb0e50.png)
 
 5. Under Object Ownership, choose either Acls Disabled( bucket owner automatically owns and has full control over every object in the bucket) or Acls enabled( here  bucket owner owns and has full control over new objects).
 
 6. Select the Block Public Access settings you want to apply to the bucket under Bucket settings for Block Public Access(it is recommended to tick all boxes and block public access unless you are hosting a public website on the bucket). In our case, we are hosting public static website which should be accessible to the public so uncheck the boxes and click on agree.
 
-7. Click on advanced options if you want to enable object lock(this is optional) so we would ignore it and just go ahead and create the bucket.
+7. Under "Default Encryption", click on enable on Server-side encryption.
+
+8. On the Encryption key type section, choose "Amazon S3-managed keys" or you can as well create your own keys by clicking on "AWS Key Management Service key"
+
+9. Click on advanced options if you want to enable object lock(this is optional) so we would ignore it 
+ 
+![Screenshot (234)](https://user-images.githubusercontent.com/112861600/194570117-10a9f84c-b166-43a6-b2bf-daaa2db6c2cd.png)
+
+10. Review your values and then click on create bucket 
+
+![Screenshot (236)](https://user-images.githubusercontent.com/112861600/194572092-1ef009f8-5660-4efd-b781-b2919ee97648.png)
+
 
 ## Uploading the demo codes to the bucket
 
